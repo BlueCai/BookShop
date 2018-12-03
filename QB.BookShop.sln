@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QB.BookShop.Data", "src\QB.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QB.BookShop.Data.Migrations", "src\QB.BookShop.Data.Migrations\QB.BookShop.Data.Migrations.csproj", "{BF1FC337-DF91-4863-84EF-074C9F1146C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QB.BookShop.API", "src\QB.BookShop.API\QB.BookShop.API.csproj", "{257A1A61-616C-4383-B6CE-3FB909B0436B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QB.BookShop.API", "src\QB.BookShop.API\QB.BookShop.API.csproj", "{257A1A61-616C-4383-B6CE-3FB909B0436B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QB.BookShop.NgAdmin", "src\QB.BookShop.NgAdmin\QB.BookShop.NgAdmin.csproj", "{3CBB8A59-3B14-4640-A841-2425E0CDE3F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{257A1A61-616C-4383-B6CE-3FB909B0436B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{257A1A61-616C-4383-B6CE-3FB909B0436B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{257A1A61-616C-4383-B6CE-3FB909B0436B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CBB8A59-3B14-4640-A841-2425E0CDE3F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CBB8A59-3B14-4640-A841-2425E0CDE3F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CBB8A59-3B14-4640-A841-2425E0CDE3F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CBB8A59-3B14-4640-A841-2425E0CDE3F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
