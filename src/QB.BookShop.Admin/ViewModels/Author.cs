@@ -1,6 +1,6 @@
-﻿using System.Collections.ObjectModel;
+﻿using System.Collections.Generic;
 
-namespace QB.BookShop.Data.Models
+namespace QB.BookShop.Admin.ViewModels
 {
     public class Author : BaseModel
     {
@@ -10,6 +10,6 @@ namespace QB.BookShop.Data.Models
 
         public string Photo { get; set; }
 
-        public virtual Collection<Book> Books { get; set; }
+        public virtual List<Book> Books { get; set; }
     }
 }

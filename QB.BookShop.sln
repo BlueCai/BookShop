@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QB.BookShop.Admin", "src\QB.BookShop.Admin\QB.BookShop.Admin.csproj", "{34AF7CA9-EEC2-49CB-8754-17B954CDB3E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QB.BookShop.Admin", "src\QB.BookShop.Admin\QB.BookShop.Admin.csproj", "{34AF7CA9-EEC2-49CB-8754-17B954CDB3E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QB.BookShop.Infrastructures", "src\QB.BookShop.Infrastructures\QB.BookShop.Infrastructures.csproj", "{16B07A65-437E-49F2-A255-612FBB72543F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QB.BookShop.Infrastructures", "src\QB.BookShop.Infrastructures\QB.BookShop.Infrastructures.csproj", "{16B07A65-437E-49F2-A255-612FBB72543F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QB.BookShop.Service", "src\QB.BookShop.Service\QB.BookShop.Service.csproj", "{BF622A01-951E-4169-8639-C17E90732EC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QB.BookShop.Service", "src\QB.BookShop.Service\QB.BookShop.Service.csproj", "{BF622A01-951E-4169-8639-C17E90732EC3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructures", "Infrastructures", "{F03C223C-7E7B-4095-ABC3-9A089CBD8674}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QB.BookShop.Data", "src\QB.BookShop.Data\QB.BookShop.Data.csproj", "{41FF2EF7-5C30-4BDE-AC05-C1F0FAAC4CEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QB.BookShop.Data", "src\QB.BookShop.Data\QB.BookShop.Data.csproj", "{41FF2EF7-5C30-4BDE-AC05-C1F0FAAC4CEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QB.BookShop.Data.Migrations", "src\QB.BookShop.Data.Migrations\QB.BookShop.Data.Migrations.csproj", "{BF1FC337-DF91-4863-84EF-074C9F1146C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QB.BookShop.Data.Migrations", "src\QB.BookShop.Data.Migrations\QB.BookShop.Data.Migrations.csproj", "{BF1FC337-DF91-4863-84EF-074C9F1146C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QB.BookShop.API", "src\QB.BookShop.API\QB.BookShop.API.csproj", "{257A1A61-616C-4383-B6CE-3FB909B0436B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{BF1FC337-DF91-4863-84EF-074C9F1146C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF1FC337-DF91-4863-84EF-074C9F1146C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF1FC337-DF91-4863-84EF-074C9F1146C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{257A1A61-616C-4383-B6CE-3FB909B0436B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{257A1A61-616C-4383-B6CE-3FB909B0436B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{257A1A61-616C-4383-B6CE-3FB909B0436B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{257A1A61-616C-4383-B6CE-3FB909B0436B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
